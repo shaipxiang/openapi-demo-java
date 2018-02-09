@@ -1,19 +1,19 @@
 ### 软件依赖
-* java version "1.7"
-* maven3
+* java version 1.7.0+
+* Tomcat
 
 ## Getting Started
 
-1. 将工程clone到本地：`git clone https://github.com/ddtalk/HarleyCorp.git`
-2. 使用IDE导入工程，比如eclipse点击`File->import`(推荐使用maven导入), IDEA点击`File->New->Project from Existing Sources...`, 文件编码都是UTF-8
+1. 将工程clone到本地：`git clone https://github.com/shaipxiang/openapi-demo-java.git`
+2. 使用IDE导入工程，比如eclipse点击`File->import`(推荐使用egit导入), IDEA点击`File->New->Project from Existing Sources...`, 文件编码都是UTF-8
 3. 打开工程的Env.java文件，填入企业的CORP_ID和SECRET（CORP_ID和SECRET可以在企业OA后台找到）
 ```
 
     public static final String CORP_ID = "your CORP_ID";
     public static final String CORP_SECRET = "your CORP_SECRET";
 ``` 
-4. 部署工程，建议使用mvn -DskipTests=true jetty:run运行或者IDE中的maven插件运行
-5. OA后台创建微应用，并把工程的首页地址/index.jsp填到微应用**首页地址**中。
+4. 部署工程
+5. OA后台创建微应用，并把工程的首页地址/index.jsp填到微应用**首页地址**中。使用手机打开，注意首页地址IP使用外网IP
 [如何创建微应用？](http://ddtalk.github.io/dingTalkDoc/#step-2-创建微应用)
 
 
